@@ -11,7 +11,7 @@
     <p>este es el parrafo correspondiente al primer encabezado del ejercicio uno de la leccion 1 del curso de html</p>
     <a href="https://open-bootcamp.com/" title="enlace a la pagina del centro">click para mas informacion</a> 
 <h2>segundo encabezado</h2>
-<div id="contenedor1">
+<div id="contenedor1" style="background-color: red";>
     <ol>
         <li>elemento 1 lista ordenada 1</li>
         <li>elemento 2 lista ordenada 1</li>
@@ -22,11 +22,8 @@
         <li>elemento 2 lista desordenada 1</li>
         <li>elemento 3 lista desordenada 1</li>
     </ul>
-    #contenedor1 {
-       background-color: red;
-    }
 </div>   
-<div id="contenedor2">
+<div id="contenedor2" style="background-color: purple";>
     <ol>
         <li>elemento 1 lista ordenada 2</li>
         <li>elemento 2 lista ordenada 2</li>
@@ -37,9 +34,6 @@
         <li>elemento 2 lista desordenada 2</li>
         <li>elemento 3 lista desordenada 2</li>
     </ul>
-    #contenedor2 {
-       background-color: blue;
-    }
 </div> 
 </body>
 </html>
