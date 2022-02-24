@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>primer encabezado</h1>
+    <p>este es el parrafo correspondiente al primer encabezado del ejercicio uno de la leccion 1 del curso de html</p>
+    <a href="https://open-bootcamp.com/" title="enlace a la pagina del centro">click para mas informacion</a> 
+<h2>segundo encabezado</h2>
+<div id="contenedor1">
+    <ol>
+        <li>elemento 1 lista ordenada 1</li>
+        <li>elemento 2 lista ordenada 1</li>
+        <li>elemento 3 lista ordenada 1</li>
+    </ol>
+    <ul>
+        <li>elemento 1 lista desordenada 1</li>
+        <li>elemento 2 lista desordenada 1</li>
+        <li>elemento 3 lista desordenada 1</li>
+    </ul>
+    #contenedor1 {
+       background-color: red;
+    }
+</div>   
+<div id="contenedor2">
+    <ol>
+        <li>elemento 1 lista ordenada 2</li>
+        <li>elemento 2 lista ordenada 2</li>
+        <li>elemento 3 lista ordenada 2</li>
+    </ol>
+    <ul>
+        <li>elemento 1 lista desordenada 2</li>
+        <li>elemento 2 lista desordenada 2</li>
+        <li>elemento 3 lista desordenada 2</li>
+    </ul>
+    #contenedor2 {
+       background-color: blue;
+    }
+</div> 
+</body>
+</html>
